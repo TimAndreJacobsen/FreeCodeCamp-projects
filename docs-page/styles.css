@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    
+  }
+  
+  header {
+    font-weight: 600;
+    font-size: 22px;
+    padding-top: 15px;
+  }
+  
+  .aside {
+    width: 15vw;
+    background-color: #d1edd3;
+    border-right: 1px solid #000;
+    padding: 5px;
+    
+  }
+  
+  .aside header{
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  
+  .aside li {
+    list-style: none;
+    padding: 10px;
+    font-size: 18px;
+    padding-left: 0px;
+    border-top: 1px solid #000;
+  }
+  
+  .content {
+    width: 80vw;
+    background-color: #d1ebed;
+    padding: 10px;
+  }
+  
+  .main-section {
+    padding: 15px;
+  }
