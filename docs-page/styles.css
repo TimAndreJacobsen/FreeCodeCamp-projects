@@ -4,6 +4,10 @@ body {
   font-size: 15px;
 }
 
+nav {
+  position: fixed;
+}
+
 .nav-link {
   text-decoration: none;
   color: #000;
@@ -43,17 +47,18 @@ header {
 }
 
 .aside header{
+  width: 15vw;
   padding-bottom: 15px;
   font-weight: 500;
   font-size: 24px;
 }
 
 .aside li {
+  width: 82%;
   list-style: none;
   padding: 10px;
   font-size: 15px;
   padding-left: 0px;
-  border-top: 1px solid #000;
 }
 
 .content {
@@ -74,12 +79,12 @@ code {
 
 @media screen and (max-width: 600px){
   .aside {
-    width: 30vw;
+    width: 20vw;
   }
 }
 
 @media screen and (max-width: 992px){
   .aside {
-    width: 30vw;
+    width: 20vw;
   }
 }
