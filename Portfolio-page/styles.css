@@ -29,7 +29,7 @@ nav a:hover {
   padding: 0;
 }
 
-.home {
+.welcome {
   display: block;
   padding-top: 30vh;
   text-align: center;
@@ -39,12 +39,12 @@ nav a:hover {
   
 }
 
-.home-title {
+.welcome-title {
   font-family: Verdana;
   font-size: 30px;
   color: #452B29;
 }
 
-.project-portfolio {
+.projects {
   background-color: #D1CEC5;
 }
