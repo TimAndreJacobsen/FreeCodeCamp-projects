@@ -32,19 +32,37 @@ nav a:hover {
 .welcome {
   display: block;
   padding-top: 30vh;
-  text-align: center;
+  text-align: center;  
   font-size: 20px;
   min-height: 70vh;
-  background: #E6E2DF;
-  
+  background: #E6E2DF; 
 }
 
-.welcome-title {
+
+
+.header {
   font-family: Verdana;
   font-size: 30px;
   color: #452B29;
+  text-align: center;
 }
 
 .projects {
   background-color: #D1CEC5;
+  padding-top: 40px;
+}
+
+.projects-tiles {
+  padding: 60px 0px 0px 0px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.project-item {
+  width: 200px;
+  height: 200px;
+  color: red;
+  background-color: blue;
+  text-align: center;
 }
