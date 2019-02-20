@@ -13,15 +13,10 @@ nav {
 nav a {
   text-align: center;
   margin: 0px 50px 0px 50px;
-  
-  link-style: none;
   text-decoration: none;
   font-family: Verdana;
   color: #E6E2DF;
   font-weight: 550;
-}
-
-nav a:hover {
 }
 
 * {
@@ -37,8 +32,6 @@ nav a:hover {
   min-height: 70vh;
   background: #E6E2DF; 
 }
-
-
 
 .header {
   font-family: Verdana;
