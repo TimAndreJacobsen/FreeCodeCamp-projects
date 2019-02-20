@@ -52,18 +52,35 @@ nav a:hover {
   padding-top: 40px;
 }
 
-.projects-tiles {
+.projects-container {
   padding: 60px 40px 100px 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.project-item {
-  flex: 0 0 200px;
-  width: 200px;
+.project-tile {
+  flex: 0 0 auto;
+  width: 300px;
   height: 200px;
   margin: 40px 40px 40px 40px; 
-  background-color: blue;
+  border: 1px solid black;
   text-align: center;
+}
+
+.project-title {
+  background: #452B29;
+  link-style: none;
+  font-family: Verdana;
+  color: #E6E2DF;
+  line-height: 30px;
+  text-align: center;
+  
+  height: 30px;
+
+}
+
+.project-img {
+  height: 170px;
+  width: 100%;
 }
