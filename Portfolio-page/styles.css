@@ -3,31 +3,25 @@ nav {
   text-align: right;
   height: 60px;
   width: 100%;
-  background-color: #4f9a94;
+  background-color: #452B29;
   
   display: flex;
   justify-content: flex-end;
   align-items: center;
-
 }
 
 nav a {
-  width: 10%;
-  height: 50%;
   text-align: center;
-  background-color: #80cbc4;
-  padding: 8px 5px 0px 5px;
-  margin: 0px 20px 0px 20px;
+  margin: 0px 50px 0px 50px;
   
   link-style: none;
   text-decoration: none;
   font-family: Verdana;
-  color: #000;
+  color: #E6E2DF;
   font-weight: 550;
 }
 
 nav a:hover {
-  background-color: #b2fef7;
 }
 
 * {
@@ -37,18 +31,20 @@ nav a:hover {
 
 .home {
   display: block;
-  padding-top: 30vw;
+  padding-top: 30vh;
   text-align: center;
   font-size: 20px;
-  min-height: 70vw;
-  background-color: lightgrey;
+  min-height: 70vh;
+  background: #E6E2DF;
+  
 }
 
 .home-title {
   font-family: Verdana;
   font-size: 30px;
+  color: #452B29;
 }
 
 .project-portfolio {
-  background-color: white;
+  background-color: #D1CEC5;
 }
