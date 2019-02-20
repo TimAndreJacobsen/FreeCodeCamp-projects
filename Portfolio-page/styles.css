@@ -70,14 +70,16 @@ nav a:hover {
 
 .project-title {
   background: #452B29;
-  link-style: none;
+  text-decoration: none;
   font-family: Verdana;
   color: #E6E2DF;
   line-height: 30px;
   text-align: center;
-  
   height: 30px;
+}
 
+.projects-container a {
+  text-decoration: none;
 }
 
 .project-img {
